@@ -4,7 +4,7 @@ Video search with Face Recognition
 
 Talk @ Applied Machine Learning days 2020 - [Google slides](https://docs.google.com/presentation/d/1Jg9rO_3dXwKzJyDOr2ley8Is5oWKE6D_aJJlJrpw0mw)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pacm/video-search) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pacm/video-search/master)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld20-video-search/blob/master/Video%20search.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/epfl-exts/amld20-video-search/blob/master/Video%20search.ipynb)
 
 **About Face Recognition**
 
@@ -32,5 +32,7 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 **Credits**
 
 * [Bolivian dancers](https://unsplash.com/photos/pLM-A2Wx_0o) by [Milica Spasojevic](https://unsplash.com/@milica_spasojevic)
+* [Stephen Hawking](https://commons.wikimedia.org/wiki/File:Barack_Obama_speaks_to_Stephen_Hawking_(cropped).jpg) by [Pete Souza](https://en.wikipedia.org/wiki/Pete_Souza)
+* [Solvay conference 1927](https://en.wikipedia.org/wiki/File:Solvay_conference_1927.jpg) by [Benjamin Couprie](https://www.wikidata.org/wiki/Q33206336)
 * [Swiss cow](https://unsplash.com/photos/Vu402lSFOO0) by [Paul Hanaoka](https://unsplash.com/@paul_)
 * Model `.dat` files from [dlib-models]( https://github.com/davisking/dlib-models) GitHub repository
