@@ -9,7 +9,7 @@ dependencies:
   - seaborn=0.9
   - jupyterlab=1.1
   - scikit-learn=0.22.1
-  - pillow=6.2.2
+  - pillow=7.0.0
   - ipywidgets
   - requests
   - nodejs
