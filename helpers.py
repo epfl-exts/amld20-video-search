@@ -88,7 +88,7 @@ def download_image(url, name):
     return download_file(url, name, IMAGES_DIR)
 
 # Function to extract frames
-def extract_frames(video_name, n_frames=150, max_frame_size=1080, verbose=True):
+def extract_frames(video_name, n_frames=150, max_frame_size=1080):
     # Create a new directory to store frames
     if os.path.exists(FRAMES_DIR):
         shutil.rmtree(FRAMES_DIR)
@@ -106,10 +106,9 @@ def extract_frames(video_name, n_frames=150, max_frame_size=1080, verbose=True):
         video_frame_count = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
         
         # Extract frames
-        progress_f = tqdm if verbose else (lambda x: x)
         frame_indexes = np.linspace(0, video_frame_count-1, n_frames, dtype=int)
 
-        for frame_index in progress_f(frame_indexes, desc='Extracting frames', unit='frame'):
+        for frame_index in tqdm(frame_indexes, desc='Extracting frames', unit='frame'):
             # Read frame
             video.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
             frame_retrieved, frame = video.read()
@@ -247,7 +246,7 @@ def face_recognition(path, face_detector, resize_img=512):
     display(img)
     display(Image.fromarray(np.hstack([legend_img, faces_img])))
 
-def extract_faces(src_dir, face_detector, resize_img=None, verbose=True):
+def extract_faces(src_dir, face_detector, resize_img=None):
     # Create directory
     faces_dir = os.path.join('data', 'faces')
     if os.path.exists(faces_dir):
@@ -255,8 +254,7 @@ def extract_faces(src_dir, face_detector, resize_img=None, verbose=True):
     os.mkdir(faces_dir)
 
     faces_data = defaultdict(list)
-    progress_f = tqdm if verbose else (lambda x: x)
-    for src_img_path in progress_f(glob.glob(src_dir + '/*.png'), desc='Extracting faces', unit='face'):
+    for src_img_path in tqdm(glob.glob(src_dir + '/*.png'), desc='Extracting faces', unit='face'):
         # Extract faces
         img = PillowExifOpen(src_img_path)
         faces = perform_face_recognition(img, face_detector, resize_img)
