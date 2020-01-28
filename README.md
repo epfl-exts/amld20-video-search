@@ -11,9 +11,10 @@ Talk @ Applied Machine Learning days 2020 - [Google slides](https://docs.google.
 * dlib C++ ML toolkit with built-in Face Recognition - [GitHub](https://github.com/davisking/dlib)
 * TensorFlow.js blazeface model - [online demo](https://storage.googleapis.com/tfjs-models/demos/blazeface/index.html) / [GitHub](https://github.com/tensorflow/tfjs-models/tree/master/blazeface)
 
-**Data Visualization with Machine Learning**
+**Other tools used**
 
-* [Visualizing Data Using t-SNE](https://www.youtube.com/watch?v=RJVL80Gg3lA) presented by Laurens van der Maaten
+* [Visualizing data using t-SNE](https://www.youtube.com/watch?v=RJVL80Gg3lA) presented by Laurens van der Maaten
+* [Chinese Whispers](https://en.wikipedia.org/wiki/Chinese_Whispers_(clustering_method)) clustering method
 
 **Troubleshooting**
 
