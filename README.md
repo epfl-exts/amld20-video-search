@@ -4,7 +4,7 @@ Video search with Face Recognition
 
 Talk @ Applied Machine Learning days 2020 - [Google slides](https://docs.google.com/presentation/d/1Jg9rO_3dXwKzJyDOr2ley8Is5oWKE6D_aJJlJrpw0mw)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld20-video-search/blob/master/Video%20search.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/epfl-exts/amld20-video-search/blob/master/Video%20search.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-exts/amld20-video-search/blob/master/Video%20search.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/epfl-exts/amld20-video-search/master?filepath=Video%20search.ipynb) [![Generic badge](https://img.shields.io/badge/Offline_View-Open-Blue.svg)](https://nbviewer.jupyter.org/github/epfl-exts/amld20-video-search/blob/master/static/Solution.ipynb)
 
 **About Face Recognition**
 
